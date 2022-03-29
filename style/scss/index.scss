@@ -1,0 +1,20 @@
+main {
+	padding: 0px;
+	margin: 0px;
+
+	display: block;
+	background-color: chartreuse;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+h1 {
+	padding: 0px;
+	color: aqua;
+	background-color: red;
+}
+
+h2, h3 {
+	margin: 0;
+}
