@@ -1,0 +1,37 @@
+ul {
+	list-style: none;
+}
+
+.client {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+
+	.client-list {
+		position: absolute;
+		top: -120px;
+		right: 0px;
+		box-sizing: border-box;
+		padding: 0px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		display: flex;
+		justify-content: start;
+		background: #FFFFFF;
+		box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+		border-radius: 2px;
+		max-width: 1276px;
+		margin: 0px;
+		overflow: auto;
+		z-index: 2;
+
+		&:last-child {
+			width: 100%;
+		}
+
+		li {
+			padding-left: 60px;
+		}
+	}
+
+}

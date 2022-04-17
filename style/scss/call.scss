@@ -1,0 +1,50 @@
+.call {
+	position: absolute;
+	top: -172px;
+	left: -1px;
+	z-index: 1;
+	box-sizing: border-box;
+	padding: 70px 10px;
+	width: 98%;
+	max-width: 1275px;
+	background: #FAFAFA;
+	box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+
+	.call-header {
+		max-width: 945px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 60px;
+		line-height: 74px;
+		color: #4D533C;
+	}
+
+	.icon-triangle::before {
+		font-size: 12px;
+	}
+
+	.call-link {
+		display: block;
+		max-width: 945px;
+		margin: 0 auto;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 18px;
+		color: #D4D6D4;
+
+		&:checked,
+		&:hover {
+			color: #FFD723;
+		}
+	}
+
+	span {
+		display: inline-block;
+		color: inherit;
+		border-bottom: 1px solid;
+		text-indent: 10px;
+	}
+}

@@ -10,12 +10,12 @@ const concat = require('gulp-concat');
 
 
 function scss() {
-	return src('style/scss/**.scss')
+	return src('style/scss/main.scss')
 		.pipe(sass())
 		.pipe(autoprefixer({
 			overrideBrowserslist: ["last 2 versions"]
 		}))
-		.pipe(concat("main.css"))
+		//.pipe(concat("main.css"))
 		.pipe(dest('style/css/'));
 }
 
